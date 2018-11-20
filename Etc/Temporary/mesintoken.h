@@ -1,10 +1,9 @@
 #ifndef __MESIN_TOKEN_H_
 #define __MESIN_TOKEN_H_
 
-#include <complex.h>
 
 typedef struct{
-	double complex val;
+	double val;
 	char tkn;
 }Token;
 
